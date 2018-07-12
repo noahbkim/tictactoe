@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <title>Tic Tac Toe</title>
+        <link type="text/css" rel="stylesheet" href="tictactoe.css">
+        <script type="text/javascript" src="tictactoe.js"></script>
+    </head>
+    <body>
+        <div id="game">
+            <table id="board">
+                <tr><td></td><td></td><td></td></tr>
+                <tr><td></td><td></td><td></td></tr>
+                <tr><td></td><td></td><td></td></tr>
+            </table>
+            <div id="graphic">graphic</div>
+        </div>
+        <div id="controls">
+            <div id="menu">
+                <form name="players">
+                    <select class="players" name="player1"></select>
+                    <select class="players" name="player2"></select>
+                </form>
+                <div class="break"></div>
+                <button id="start">start</button>
+            </div>
+            <div id="dashboard" class="hidden">
+                <span id="turn"></span>
+                <div class="break"></div>
+                <button id="reset" class="hidden">reset</button>
+            </div>
+        </div>
+    </body>
+</html>
