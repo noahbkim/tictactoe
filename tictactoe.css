@@ -64,6 +64,8 @@ select {
     font-size: 20px;
     padding: 4px;
     margin: 0 1em;
+    -webkit-appearance: none;
+    border-radius: 0;
 }
 
 button {
